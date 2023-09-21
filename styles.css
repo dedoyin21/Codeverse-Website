@@ -109,7 +109,7 @@
     color: white;
 }
 
-h1{
+#line2{
     margin-top: 5rem;
     color: white;
 }
@@ -319,16 +319,22 @@ h3{
     .copyright{
         margin: 0 2rem 0 0;
     }
+}
 
    
-    /* JOHN CSS Additional changes can be made as needed for smaller screens */
-}
-body{
+    /* JOHN CSS  */
+
+/* body{
     background: #F6F0E3;
     justify-content: center;
 }
+<<<<<<< Updated upstream
     
 .page4 h1{
+=======
+     */
+h1{
+>>>>>>> Stashed changes
     font-family: 'Cabinet Grotesk', sans-serif;
     line-height: 58px; 
     letter-spacing: -0.02em;
