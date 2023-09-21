@@ -173,6 +173,21 @@ h3{
     margin-bottom: -0.09px;
 }
 
+#shapes{
+    position: absolute;
+    order:-1;
+    z-index: 0;
+}
+
+.box:hover{
+    transition: 0.3em; 
+    cursor: pointer;
+    scale: 1.1;
+} 
+
+ul li:hover{
+    color: rgb(245, 82, 82);
+ }
 
 
 /* Media query for screens with a maximum width of 600px (for smaller devices) */
@@ -396,7 +411,6 @@ p{
 .boxes{
     flex-direction: column;
     border: 1.64px;
-    /* margin-left: 10px; */
     align-content: center;
 }
 
