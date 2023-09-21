@@ -209,10 +209,6 @@ h3{
     scale: 1.1;
 } 
 
-ul li:hover{
-    color: rgb(245, 82, 82);
- }
-
 
 /* Media query for screens with a maximum width of 600px (for smaller devices) */
 @media only screen and (max-width: 600px) {
