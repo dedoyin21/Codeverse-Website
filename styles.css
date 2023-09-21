@@ -30,7 +30,7 @@ h2{
 }
 
 .page1{
-    background-color: #ffd400;
+    background-color: #141414;
     margin-left: -0.5rem;
 }
 
@@ -212,15 +212,14 @@ h3{
     .img-box {
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 1rem; /* Reduce padding for smaller screens */
+        padding-bottom: 1rem; 
     }
 
     #image {
-        height: auto; /* Let the image scale proportionally */
-        width: 100%; /* Make the image fill the container width */
+        height: auto;
+        width: 100%;
         margin: 0 1rem 1rem 1rem;
     }
-
 
     h3 {
         color: #FFFFFF;
@@ -254,25 +253,25 @@ h3{
     }
 
     .courses {
-        margin: 1rem 1rem 0 1rem; /* Adjust margin for smaller screens */
-        flex-direction: column; /* Stack courses vertically for smaller screens */
+        margin: 1rem 1rem 0 1rem; 
+        flex-direction: column; 
     }
 
-    /* Update the styles for the footer links and columns */
     .footer-links {
-        margin-left: 0; /* Reset margin for smaller screens */
+        margin-left: 0; 
     }
 
     .footer-info {
-        margin-left: 1rem; /* Adjust margin for smaller screens */
-        margin-top: 0; /* Reset margin for smaller screens */
+        margin-left: 1rem;
+        margin-top: 0; 
     }
 
     .copyright{
         margin: 0 2rem 0 0;
     }
 
-    /* Additional changes can be made as needed for smaller screens */
+   
+    /* JOHN CSS Additional changes can be made as needed for smaller screens */
 }
 body{
     background: #F6F0E3;
