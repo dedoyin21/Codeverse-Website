@@ -1,0 +1,159 @@
+body{
+    background: #F6F0E3;
+    justify-content: center;
+}
+    
+h1{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    line-height: 58px; 
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 70px;
+}
+
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: #363636;
+    text-align: center;
+}
+
+h5{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    height: 72px;
+    text-align:center;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.border-box{
+    border: 1.5px solid black;
+    box-shadow: 7px 5px #2E294E;
+    width: 290px;
+    height: 260px;
+    margin: 40px;
+    background-color: white;
+}
+
+#vector{
+    scale: 0.7;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.border-box h3{
+    font-family: 'Cabinet Grotesk', sans-serif;
+    margin-left: 30px;
+    margin-bottom: 0;
+}
+
+.border-box p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: small;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 25px;
+}
+
+button{
+    margin-left: 25px;
+    border: 0px;
+    background-color: white;
+}
+
+@media screen and (max-width:768px) {
+body{
+    width: 390px;
+    height: 3140px;
+    top: 2406px;
+}
+
+h1{
+    width: 310.14px;
+    height: 76px;
+    font-family:'Cabinet Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    margin-left: 30px;
+}
+
+p{
+    width: 370px;
+    height: 237.16px;
+    font-family:'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-left: 10px;
+    color: #363636;
+    
+}
+
+.start{
+    width: 300px;
+    height: 70px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.boxes{
+    flex-direction: column;
+    border: 1.64px;
+    /* margin-left: 10px; */
+    align-content: center;
+}
+
+.border-box{
+    margin-top: 0px;
+    width: 349px;
+    height: 374.4px;
+
+}
+
+.border-box h3{
+    font-family:'Cabinet Grotesk', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.border-box p{
+    width: 280.71px;
+    height: 132px;
+    display: flex;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+}
+
+button{
+   margin-top: 20px;
+}
+
+}
