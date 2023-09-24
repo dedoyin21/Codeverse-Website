@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 *, **{
     margin: 0px;
     padding: 0px;
@@ -511,3 +512,342 @@ button{
 
 }
 /* End of it */
+=======
+*, ** {
+    margin: 0;
+    padding: 0;
+}
+
+.frontpage{
+    width: 100%;
+    background: #F6F0E3;
+}
+
+#logo{
+    position: absolute;
+    scale: 1;
+    z-index:1;
+    margin-top: 3rem;
+    margin-left:1rem;
+}
+
+.desktop-menu{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.desktop-menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    margin:50px 0px 0px 300px;
+}
+
+.desktop-menu li {
+    display: flex;
+    flex-direction: row;
+    margin-inline: 10px;
+}
+
+.desktop-menu a {
+    color:black;
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 15px 20px;
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.desktop-menu li button{
+    border: 0cm;
+    background: #F6F0E3;
+    margin-top: 50px;
+    font-size:medium;
+}
+
+#button1{
+    padding: 14px 32px;
+    border-radius: 4px;
+    background: #A74747;
+    border-color: #A74747;
+    color:#f1f1f1 ;
+    border: 0px; 
+    margin-left: 250px; 
+    margin-top: 50px;  
+    font:18px;
+    font-weight:600;
+}
+
+#shape{
+    position: relative;
+    scale:1;
+    z-index: 1;
+    margin-top: -80px;
+}
+.frontpage p{
+    padding: 20px;
+}
+
+
+.body{
+    margin-top: 100px;
+} 
+
+.borderbox1 h1{
+    color: #000;
+    text-align: center;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: -2%;
+    letter-spacing: -1.28px;
+    
+}
+
+.button2{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#button2a{
+    color: #000;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 14px 32px;
+}
+#button2b{
+    border: 0px;
+    border-radius: 4px;
+    background: #A74747;
+    color: #FFF;
+    padding: 14px 32px;
+}
+
+.page2{
+    display:grid;
+    background: #2E294E;
+    padding:70px;
+}
+
+.borderbox3{
+    margin-left: 700px;
+    margin-top: 40px;
+    gap: 2px;
+}
+
+#img1{
+    scale: 0.7;
+    position: absolute;
+    z-index:1;
+    margin-right:600px;
+    margin-top: -70px;
+}
+.page2 h2{
+    color: #FFF;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.page2 p{
+    color: #D3D0E7;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    display: grid;
+    margin-top: 0px;
+}
+
+.arrow-button {
+    border-radius: 4px;
+    background: #2E294E;
+    display: inline-flex;
+    border-color: #FFFFFF33;
+    height: 50px;
+    color: #FFF;
+    padding: 14px 32px;
+    justify-content: center;
+    margin-top: 15px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.page3{
+    padding:50px;
+    background: #541388;
+    display: grid;
+}
+
+#img2{
+    scale: 0.7;
+    position: absolute;
+    z-index:1;
+    margin-left:450px;
+    margin-top: -300px;
+   
+}
+
+h3{
+    color: #FFF;
+    font-family: 'Cabinet Grotesk', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -0.96px;
+    margin:10px 0px;
+}
+
+.page3 p{
+    color: #D3D0E7;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+  
+.arrow-button2 {
+    border-radius: 4px;
+    background: #FFD400;
+    border: 0px;
+    display: inline-flex;
+    height: 50px;
+    color:#541388;
+    margin-top: 10px;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+} 
+.borderbox4{
+    margin-left: 150px;
+}
+
+.mobile-menu-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+}
+
+.mobile-menu li {
+    padding: 15px;
+    text-align: center;
+}
+
+.mobile-menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+@media screen and (max-width: 768px){
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .mobile-menu-icon {
+        background-color: #F6F0E3;
+        color: #333;
+        border: none;
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left:580px;
+    }
+    .mobile-menu {
+        display: none;
+    }
+
+    .frontpage h1{
+        font-size:32px;
+        margin-top: 100px;
+
+    }
+    .logo{
+        scale:1.5;
+        margin-top: -100px;
+    }
+    .button2{
+        display:flex;
+        flex-direction: column;
+    }
+    #shape{
+        margin-top: 50px;
+    }
+    .page2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #img1{
+        margin-top:-400px;
+        
+    }
+
+    .borderbox3{
+        margin-top:400px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .page3{
+        top: 1519px;
+        padding: 452px, 42.49px, 89px, 21.36px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .borderbox4{
+        margin-top: 350px;
+        margin-left: 21.36px;
+        gap: 32px;
+
+    }
+
+    #img2{
+        margin-left: -240px;
+        margin-top: -900px;
+    }
+}
+    
+>>>>>>> Stashed changes
