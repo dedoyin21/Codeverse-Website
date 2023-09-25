@@ -514,12 +514,9 @@ button{
 
 
 
-<<<<<<< Updated upstream
 /* Dayo css */
-=======
 /* dayo css for first page and navigation page*/
 
->>>>>>> Stashed changes
 
 .frontpage{
     background: #F6F0E3;
@@ -780,7 +777,7 @@ button{
     display: block;
 }
 
-/* @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .desktop-menu {
         display: none;
     }
@@ -853,8 +850,3 @@ button{
         margin-top: -900px;
     }
 }
-<<<<<<< Updated upstream
-    
-=======
-     */
->>>>>>> Stashed changes
