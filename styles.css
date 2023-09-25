@@ -354,7 +354,7 @@ h3{
  
 
 
-    /* JOHN CSS  */
+    /* JOHN CSS for middle page  */
     
 .page4 h1{
     font-family: 'Cabinet Grotesk', sans-serif;
@@ -514,10 +514,14 @@ button{
 
 
 
+<<<<<<< Updated upstream
 /* Dayo css */
+=======
+/* dayo css for first page and navigation page*/
+
+>>>>>>> Stashed changes
 
 .frontpage{
-    width: 100%;
     background: #F6F0E3;
 }
 
@@ -587,7 +591,7 @@ button{
     border-color: #A74747;
     color:#f1f1f1 ;
     border: 0px; 
-    margin-left: 250px; 
+    margin-left: 50px; 
     margin-top: 50px;  
     font:18px;
     font-weight:600;
@@ -701,9 +705,11 @@ button{
 }
 
 .page3{
-    padding:50px;
+    padding:1rem;
     background: #541388;
-    display: grid;
+    display:flex;
+    flex-direction: row;
+    margin-left: 0px;
 }
 
 #img2{
@@ -715,15 +721,15 @@ button{
    
 }
 
-h3{
+.page3 h3{
     color: #FFF;
     font-family: 'Cabinet Grotesk', sans-serif;
-    font-size: 48px;
+    font-size:48px;
     font-style: normal;
     font-weight: 700;
-    line-height: 120%;
+    line-height:57.6px;
     letter-spacing: -0.96px;
-    margin:10px 0px;
+    margin-left: 0px;
 }
 
 .page3 p{
@@ -774,7 +780,7 @@ h3{
     display: block;
 }
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){
     .desktop-menu {
         display: none;
     }
@@ -847,4 +853,8 @@ h3{
         margin-top: -900px;
     }
 }
+<<<<<<< Updated upstream
     
+=======
+     */
+>>>>>>> Stashed changes
